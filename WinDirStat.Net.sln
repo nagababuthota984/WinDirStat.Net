@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{
 EndProject
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "WinDirStat.Net.MSIX", "WinDirStat.Net.MSIX\WinDirStat.Net.MSIX.wapproj", "{47AE7FE0-9AE1-482B-955C-472D20DF4BC3}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WinDirStat.Net.Setup", "WinDirStat.Net.Setup\WinDirStat.Net.Setup.vdproj", "{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -259,6 +261,26 @@ Global
 		{47AE7FE0-9AE1-482B-955C-472D20DF4BC3}.Wpf Release|x86.ActiveCfg = Release|x86
 		{47AE7FE0-9AE1-482B-955C-472D20DF4BC3}.Wpf Release|x86.Build.0 = Release|x86
 		{47AE7FE0-9AE1-482B-955C-472D20DF4BC3}.Wpf Release|x86.Deploy.0 = Release|x86
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Debug|Any CPU.ActiveCfg = Debug
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Debug|ARM.ActiveCfg = Debug
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Debug|ARM64.ActiveCfg = Debug
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Debug|x64.ActiveCfg = Debug
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Debug|x86.ActiveCfg = Debug
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Release|Any CPU.ActiveCfg = Release
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Release|ARM.ActiveCfg = Release
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Release|ARM64.ActiveCfg = Release
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Release|x64.ActiveCfg = Release
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Release|x86.ActiveCfg = Release
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Wpf Debug|Any CPU.ActiveCfg = Debug
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Wpf Debug|ARM.ActiveCfg = Debug
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Wpf Debug|ARM64.ActiveCfg = Debug
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Wpf Debug|x64.ActiveCfg = Debug
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Wpf Debug|x86.ActiveCfg = Debug
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Wpf Release|Any CPU.ActiveCfg = Release
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Wpf Release|ARM.ActiveCfg = Release
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Wpf Release|ARM64.ActiveCfg = Release
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Wpf Release|x64.ActiveCfg = Release
+		{E84CDF4B-8F4A-4CD8-8754-D22442D5AFCF}.Wpf Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -268,8 +290,8 @@ Global
 		{7DA5A107-B474-4AC0-B861-63A489DB0C02} = {46B0460D-2FF3-421B-843A-C44A4599B51B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A93EEC7D-680B-4135-9261-B4201D37538C}
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45
+		SolutionGuid = {A93EEC7D-680B-4135-9261-B4201D37538C}
 	EndGlobalSection
 	GlobalSection(Performance) = preSolution
 		HasPerformanceSessions = true
