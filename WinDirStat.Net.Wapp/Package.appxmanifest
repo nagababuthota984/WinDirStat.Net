@@ -14,7 +14,7 @@
   <Properties>
     <DisplayName>WinDirStat.Net.Wapp</DisplayName>
     <PublisherDisplayName>nagababu</PublisherDisplayName>
-    <Logo>Images\StoreLogo.png</Logo>
+    <Logo>Images\technovert_logo.png</Logo>
   </Properties>
 
   <Dependencies>
@@ -34,10 +34,10 @@
         DisplayName="WinDirStat.Net.Wapp"
         Description="WinDirStat.Net.Wapp"
         BackgroundColor="transparent"
-        Square150x150Logo="Images\Square150x150Logo.png"
-        Square44x44Logo="Images\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.png" />
-        <uap:SplashScreen Image="Images\SplashScreen.png" />
+        Square150x150Logo="Images\technovert_logo.png"
+        Square44x44Logo="Images\technovert_logo.png">
+        <uap:DefaultTile Wide310x150Logo="Images\technovert_logo.png" />
+        <uap:SplashScreen Image="Images\technovert_logo.png" />
       </uap:VisualElements>
     </Application>
   </Applications>
