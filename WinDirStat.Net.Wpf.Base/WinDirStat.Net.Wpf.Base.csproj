@@ -6,6 +6,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
     <Configurations>Debug;Release</Configurations>
+    <ApplicationIcon>technovert_logo.ico</ApplicationIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -32,6 +33,10 @@
     <Compile Remove="Utils\Volatiles\VolatileCompound.cs" />
     <Compile Remove="ViewModel\Graph\FileGraphViewModel.cs" />
     <Compile Remove="ViewModel\Graph\GraphViewModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="technovert_logo.ico" />
   </ItemGroup>
 
   <!-- NuGet References -->
